@@ -3,7 +3,7 @@ import * as d3 from 'd3'
 
 loadFile()
 function loadFile() {
-    fs.readFile("./data/data.txt", function (err, data) {
+    fs.readFile("data.txt", function (err, data) {
         if (!err) {
          //   const parsedData = d3.tsvParse(data);
             console.log('received data items: ' + data.length);
@@ -24,7 +24,7 @@ function parseData(src)
 // async function getData() {
 
 //     try {
-//         const data = d3.tsv('./data/data.txt')
+//         const data = d3.tsv('data.txt')
 //         return await data
 //     }
 //     catch (err) {
