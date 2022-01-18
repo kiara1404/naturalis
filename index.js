@@ -1,7 +1,7 @@
 
 
 d3.tsv('data.txt').then(data => {
-    console.log(data[0])
+    console.log(typeof(data))
     var selection = data.slice(0, 20)
       for (let i = 0; i < selection.length; i++){
         console.log(selection[i].scientificName)

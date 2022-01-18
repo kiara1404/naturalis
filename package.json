@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/kiara1404/naturalis#readme",
   "dependencies": {
+    "csv-parser": "^3.0.0",
     "d3": "6.0.0",
+    "d3-array": "^3.1.1",
+    "d3-dsv": "^3.0.1",
     "nodemon": "^2.0.15"
   }
 }
