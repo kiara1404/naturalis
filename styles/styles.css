@@ -1,54 +1,49 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+        background-color: #b9ddff;
     
 }
 
-main {
-    height: 90vh;
-    background-color: #efefef;
-    overflow: hidden;
 
-}
-
-header nav {
-    height: 10vh;
-    background-color: #6aad40;
-}
-
-header nav ul {
+header ul {
     list-style-type: none;
-}
-header nav img {
-    width: 8%;
-    padding: 10px;
-}
-main img {
-    width: 70%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-        
-}
-main a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3em;
-    color: #000;
-    text-decoration: none;
-}
-#planten {
-    position: absolute;
-    left: 600px;
-    top: 300px;
+    margin-top: 30px;
 }
 
-#dieren {
-    position: absolute;
-    left: 880px;
-    top: 300px;
+header ul li a {
+    background-color: #fff;
+    display: block;
+    width: 8em;
+    height: 2.5em;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.397)
+
 }
-#schimmels {
-    position: absolute;
-    left: 1100px;
-    top: 300px;
+
+header ul li:nth-child(2) a{
+    background-color: rgb(175, 118, 212);
+    color: #fff;
+}
+
+header ul li:nth-child(1) a{
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+main {
+    padding: -220px;
+}
+main section {
+    width: 80%;
+    background-color: #fff;
+    opacity: 0.7;
+    height: 60vh;
+    display: block;
+    margin: 80px auto;
+    border-radius: 60px;
 }
